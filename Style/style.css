@@ -1,0 +1,463 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.topLine {
+    width: 100%;
+    height: 420px;
+    background-image: url('../Img/fon1.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.topLine div{
+    padding: 80px 0px 0px 0px;
+}
+
+.topLine div h1{
+    background-color: black;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 42px;
+}
+
+.topLine h4{
+    width: 500px;
+    height: auto;
+    margin: 30px auto auto auto;
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.topLine h3 {
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.topLine h2 {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+}
+
+.headScroll {
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.headScroll figcaption {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 14px;
+    padding-bottom: 18px;
+}
+
+/*конец оформления шапки сайта*/
+
+.hamburgerMenu{
+    position: fixed;
+/*    top 1%;*/
+/*    height: 25px;*/
+    z-index: 99999;
+/*    margin: -400px 0 0 0;*/
+}
+
+.hamburgerMenu img{
+    height: 85px;
+}
+
+/*.navbarLeft {
+    width: 17%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(46, 41, 37, 0.5);
+    margin-top: -420px;
+    z-index: 999;
+}*/
+
+.navbarLogo {
+    width: 100%;
+    /*height: 100%;*/
+    text-align: center;
+    margin-top: 55px;
+}
+
+.navbarLogo p {
+    width: 100%;
+    height: auto;
+    font-size: xx-large;
+    font-family: serif;
+    color: #e6cc3d;
+    word-wrap: break-word;
+}
+
+.borderYellow {
+    width: 75%;
+    height: 1%;
+/*    border-bottom: 1px solid #e6cc3d;*/
+/*    border-top: 1px solid #e6cc3d;*/
+    margin: auto;
+}
+
+.navbar {
+    width: 80%;
+    height: auto;
+    margin: 15px auto auto auto;
+}
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin-top: 7%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: serif;
+    font-size: 150%;
+}
+
+/*.navConnect {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(46, 41, 37, 1); 
+    bottom: 0;
+    position: absolute;
+}
+
+.navContentMeaning {
+    color: aliceblue;
+    font-family: serif;
+    font-size: 14px;
+}
+
+.navContentVolue {
+    color: #e6cc3d;
+    font-family: serif;
+    font-size: 13px;
+}
+
+.connectInfo {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+#furnitureForHomeAndOffice{
+    background-image: url('../Img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Playgrounds {
+    background-image: url('../Img/playground-equipment-full-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#artisticForging {
+   background-image: url('../Img/maxresdefault.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+#sportsGrounds {
+    background-image: url('../Img/Kontio_050sv.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+#cushionedFurniture{
+    background-image: url('../Img/Interior_Upholstered_furniture_in_the_room_2_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+    
+
+.bord {
+    clear: both;
+}
+
+.mainConteiner{
+    position: relative;
+    z-index: 2;
+}
+
+.conteiner, .mainConteiner {
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+    clear: both;
+}
+
+.Cont{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.headerCont{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.headerCont p {
+    font-family: serif;
+    font-size: 46px;
+}
+
+.mainCont{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+.FloatFigure{
+    text-align: center;
+}
+
+.FloatFigure img{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.FloatFigure h2{
+    text-align: center;
+    margin-left: 8%;
+    padding: 20px 0 10px 0; 
+}
+
+.FloatFigure p {
+    text-align: center;
+    font-family: serif;
+    font-size: 22px;
+    margin-left: 9%;
+    word-wrap: break-word;
+}
+
+.clearSpace {
+    clear: both;
+    height: 6vh;
+    width: 100%;
+    background-color: white;
+}
+
+.headerConteiner {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bord {
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+.description{
+    width: 65%;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    font-size: 26px;
+}
+
+.ligthColor{
+    color: aliceblue;
+}
+
+.dev {
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+    /*position: absolute;*/
+}
+
+.dev p{
+    color: aliceblue;
+}
+
+.connectInfo{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5%; 
+} 
+
+@media only screen and (min-width: 1400px),
+    only screen and (min-device-width: 768px){
+    .clearFixHi {
+        clear: right;
+    }
+}
+
+.headerConteiner div p {
+    font-family: serif;
+    font-size: 38px;
+    padding-top: 20px;
+}
+
+.mainBorder {
+    height: 1vh;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 20%;
+    margin: 10px auto auto auto;
+}
+
+.mainContent {
+    float: left;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Figure {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px;
+    display: inline-block;
+}
+
+.Figure img {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.Figure img{
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
+.Figure img:hover{
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    z-index: 999;
+}
+
+.footCont {
+    clear: both;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 6vh;
+    margin: auto;
+    padding-top: 20px; 
+}
+
+.footCont p {
+    font-family: serif;
+    font-size: 28px;
+}
+
+.ligth{
+    color: aliceblue;
+}
+
+.map {
+    width: 100%;
+}
+
+.clearFixAll{
+  clear: both;  
+}
+
+@media only screen and (max-width: 1400px),
+only screen and (max-device-width: 768px) {
+    .navbarLeft {
+        display: none;
+    }
+    
+    .mainBorder {
+        height: 1vh;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1.7vh;
+    }
+    
+    .mainContent{
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .clearFixLow{
+        clear: right;
+    }
+    
+    .map{
+    height: 300px;
+    }
+    
+    .develop {
+        width: auto;
+    }
+}
+
+.mm-menu {
+    overflow: auto;
+}
+
+.mm-panels{
+    background: none;
+    border-color: inherit;
+    position: initial;
+    
+}
+
+.mm-panels>.mm-panel.mm-hasnavbar {
+    margin: 0 auto;
+}
+
+.mm-panels>.mm-panel {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: hidden;
+}
+
+.whiteBG{
+    background-color: white;
+}
