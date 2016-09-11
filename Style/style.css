@@ -15,28 +15,33 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
-.topLine div{
-    padding: 80px 0px 0px 0px;
+.topLine h1{
+    background-color: black;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.topLine div h1{
-    background-color: black;
+.headLine {
     width: 600px;
     height: auto;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: aliceblue;
     font-size: 42px;
+    position: relative;
+    padding-top: 80px; 
 }
 
 .topLine h4{
     width: 500px;
     height: auto;
-    margin: 30px auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     text-align: center;
     color: aliceblue;
-    font-style: italic;
 }
 
 .topLine h3 {
@@ -52,7 +57,8 @@
 .topLine h2 {
     width: 700px;
     height: auto;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: aliceblue;
 }
@@ -66,84 +72,72 @@
     text-align: center;
 }
 
-.headScroll figcaption {
+.headScrollText {
     width: 80px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: aliceblue;
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 18px;
 }
 
-/*конец оформления шапки сайта*/
-
-.hamburgerMenu{
-    position: fixed;
-/*    top 1%;*/
-/*    height: 25px;*/
-    z-index: 99999;
-/*    margin: -400px 0 0 0;*/
-}
-
-.hamburgerMenu img{
-    height: 85px;
-}
-
-/*.navbarLeft {
+.navbarLeft {
     width: 17%;
     height: 100%;
     position: fixed;
     background-color: rgba(46, 41, 37, 0.5);
     margin-top: -420px;
-    z-index: 999;
-}*/
+}
 
 .navbarLogo {
     width: 100%;
-    /*height: 100%;*/
+    height: auto;
     text-align: center;
     margin-top: 55px;
 }
 
-.navbarLogo p {
+.logoText {
     width: 100%;
     height: auto;
-    font-size: xx-large;
+    font-size: 42px;
     font-family: serif;
     color: #e6cc3d;
     word-wrap: break-word;
 }
 
 .borderYellow {
-    width: 75%;
-    height: 1%;
-/*    border-bottom: 1px solid #e6cc3d;*/
-/*    border-top: 1px solid #e6cc3d;*/
-    margin: auto;
+    width: 200px;
+    height: 10px;
+    border-bottom: 1px solid #e6cc3d;
+    border-top: 1px solid #e6cc3d;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
     width: 80%;
     height: auto;
-    margin: 15px auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
-.navbar ul {
+.navbarList {
     list-style-type: none;
 }
 
-.navbar ul li {
-    margin-top: 7%;
+.navbarLink {
+    margin-top: 5px;
 }
 
-.navbar ul li a {
+.navbarText {
     text-decoration: none;
     color: aliceblue;
     font-family: serif;
-    font-size: 150%;
+    font-size: 18px;
 }
 
-/*.navConnect {
+.navConnect {
     width: 100%;
     height: auto;
     margin-left: auto;
@@ -170,7 +164,7 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-}*/
+}
 
 #furnitureForHomeAndOffice{
     background-image: url('../Img/bg.jpg');
@@ -201,20 +195,30 @@
 }
 
 #cushionedFurniture{
-    background-image: url('../Img/Interior_Upholstered_furniture_in_the_room_2_.jpg');
+    background-image: url('../Img/Interior_Upholstered_furniture_in_the_room_032128_.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;   
 }
     
+.dev {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+.develop {
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+.developers {
+    color: aliceblue;
+}
 
 .bord {
     clear: both;
-}
-
-.mainConteiner{
-    position: relative;
-    z-index: 2;
 }
 
 .conteiner, .mainConteiner {
@@ -225,10 +229,9 @@
 }
 
 .Cont{
-    width: 65%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 .headerCont{
@@ -240,29 +243,23 @@
 
 .headerCont p {
     font-family: serif;
-    font-size: 46px;
+    font-size: 42px;
 }
 
 .mainCont{
-    display: inline-block;
-    vertical-align: top;
+    float: left;
     width: 33%;
     margin-bottom: 30px;
 }
 
-.FloatFigure{
-    text-align: center;
-}
-
 .FloatFigure img{
-    width: 80%;
+    width: 90%;
     margin-left: 5%;
 }
 
 .FloatFigure h2{
     text-align: center;
     margin-left: 8%;
-    padding: 20px 0 10px 0; 
 }
 
 .FloatFigure p {
@@ -277,7 +274,6 @@
     clear: both;
     height: 6vh;
     width: 100%;
-    background-color: white;
 }
 
 .headerConteiner {
@@ -287,39 +283,6 @@
     text-align: center;
 }
 
-.bord {
-    width: 100%;
-    border-top: 1px solid black;
-}
-
-.description{
-    width: 65%;
-    margin: 20px auto 20px auto;
-    text-align: center;
-    font-size: 26px;
-}
-
-.ligthColor{
-    color: aliceblue;
-}
-
-.dev {
-    width: 100%;
-    background-color: black;
-    z-index: 9999;
-    /*position: absolute;*/
-}
-
-.dev p{
-    color: aliceblue;
-}
-
-.connectInfo{
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 5%; 
-} 
-
 @media only screen and (min-width: 1400px),
     only screen and (min-device-width: 768px){
     .clearFixHi {
@@ -327,10 +290,10 @@
     }
 }
 
-.headerConteiner div p {
+
+.headerConteinerText p {
     font-family: serif;
     font-size: 38px;
-    padding-top: 20px;
 }
 
 .mainBorder {
@@ -338,7 +301,16 @@
     border-top: 1px solid;
     border-bottom: 1px solid;
     width: 20%;
-    margin: 10px auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.7vh;
+}
+
+.center {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
 }
 
 .mainContent {
@@ -364,25 +336,24 @@
 }
 
 .Figure img{
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
 }
 
-.Figure img:hover{
-    -webkit-transform: scale(1.8);
-    -moz-transform: scale(1.8);
-    -o-transform: scale(1.8);
-    z-index: 999;
+.Figure img:active{
+    -webkit-transform: scale(2.2);
+    -moz-transform: scale(2.2);
+    -o-transform: scale(2.2);
 }
 
 .footCont {
     clear: both;
-    width: 60%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding-bottom: 6vh;
-    margin: auto;
-    padding-top: 20px; 
+    padding-bottom: 2vh;
 }
 
 .footCont p {
@@ -392,10 +363,12 @@
 
 .ligth{
     color: aliceblue;
+    margin-bottom: 10px;
 }
 
 .map {
     width: 100%;
+    margin-top: -0.6vh;
 }
 
 .clearFixAll{
@@ -433,31 +406,11 @@ only screen and (max-device-width: 768px) {
     height: 300px;
     }
     
+    .Figure img {
+        height: 150px
+    }
+    
     .develop {
         width: auto;
     }
-}
-
-.mm-menu {
-    overflow: auto;
-}
-
-.mm-panels{
-    background: none;
-    border-color: inherit;
-    position: initial;
-    
-}
-
-.mm-panels>.mm-panel.mm-hasnavbar {
-    margin: 0 auto;
-}
-
-.mm-panels>.mm-panel {
-    -webkit-overflow-scrolling: touch;
-    overflow-y: hidden;
-}
-
-.whiteBG{
-    background-color: white;
 }
